@@ -36,7 +36,6 @@
   height: 50px;
   border-radius: 50%;
   border: 1px solid grey;
-  background-color: blanchedalmond;
   outline: none;
   cursor: pointer;
   position: relative;
@@ -70,4 +69,12 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.button-disabled {
+  background-color: cadetblue;
+}
+
+.button-active {
+  background-color: blanchedalmond;
 }
